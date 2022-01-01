@@ -7,7 +7,9 @@ public class Main {
 
     for(int i=1;i<=5;i++)
     {
-        System.out.println("Nodfhgdfzhffzdhfdzhdfzhdh ."+i);
+        for(int j=1;j<i;j++) {
+            System.out.println("No ." + i + "" + j);
+        }
     }
     }
 }
